@@ -33,7 +33,7 @@
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>myspring-boot-starter-web</artifactId>
+			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
 		<dependency>
@@ -50,7 +50,7 @@
 	</dependencies>
 
 	<build>
-		<finalName>springbootdemoproejct</finalName>
+		<finalName>MySpringBootProject</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
