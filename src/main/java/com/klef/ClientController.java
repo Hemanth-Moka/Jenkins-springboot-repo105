@@ -16,4 +16,10 @@ public class ClientController
 	{
 		return "jenkins Demo";
 	}
+	@GetMapping("/test")
+	public String test()
+	{
+		return "<span style='color:red;'>This is red text</span>";
+	}
+	
 }
