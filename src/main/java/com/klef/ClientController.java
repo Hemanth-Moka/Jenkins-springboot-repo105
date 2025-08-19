@@ -19,7 +19,7 @@ public class ClientController
 	@GetMapping("/test")
 	public String test()
 	{
-		return "<span style='color:red;'>This is red text</span>";
+		return "<span style='color:red;'>Tested Routes By Jenkins (MY_springBootProject)</span>";
 	}
 	
 }
